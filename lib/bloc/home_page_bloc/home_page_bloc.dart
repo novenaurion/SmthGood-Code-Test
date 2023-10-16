@@ -22,13 +22,13 @@ class HomePageBloc extends Bloc<HomePageEvent, HomePageState> {
   FutureOr<void> _firstInputFieldChanged(
       FristInputFieldChanged event, Emitter<HomePageState> emit) {
     print("evetn==>${event.firstInput}");
-    emit(state.copyWith(firstInput: event.firstInput));
+    emit(state.copyWith(homePageStatus:HomePageStatus.initial,firstInput: event.firstInput,));
   }
 
   FutureOr<void> _secondInputFieldChanged(
       SecondInputFieldChanged event, Emitter<HomePageState> emit) {
     print("evetn==>${event.secondInput}");
-    emit(state.copyWith(secondInput: event.secondInput));
+    emit(state.copyWith(homePageStatus:HomePageStatus.initial,secondInput: event.secondInput));
   }
 
   FutureOr<void> _onSubmitted(OnSubmitted event, Emitter<HomePageState> emit) {
