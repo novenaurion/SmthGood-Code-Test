@@ -2,15 +2,30 @@
 
 Code Test
 
-## Getting Started
+<h1> Tabel Of Content</h1>
+<ol>
+  <li>
+    Prerequisites
+  </li>
+  <li>
+    Buil and run 
+  </li>
+</ol>
 
-This project is a starting point for a Flutter application.
+# Prerequisites
+Make sure that the following is installed on your system:
 
-A few resources to get you started if this is your first Flutter project:
+A clone of this repository.
+Recent flutter sdk.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Android
+Android Studio
+iOS (only available for Apple computers, e.g. MacBook, iMac)
+XCode
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Buil and run 
+Open this project in android studio.
+Select devices in flutter device selection.
+You can start testing by running the app.
+
